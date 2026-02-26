@@ -1,11 +1,11 @@
 import streamlit as st
 from PIL import Image
 
-st.title("La mini app de Sofi")
-st.header("En esta página Sofi está cocinando su primera app")
-st.write("La app se está cocinando")
-image = Image.open('conejito.jpg')
-st.image(image, caption = "Conejito feliz")
+st.title("Dani mi primera app")
+st.header("Dani estuvo aqui jeje")
+st.write("Aplicación nadando")
+image = Image.open('tiburoncito.png')
+st.image(image, caption = "Tiburoncito u ja ja")
 
 
 texto = st.text_input('Escribe el nombre de tu animal favorito', 'Mi animal fav')
